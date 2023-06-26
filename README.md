@@ -4,7 +4,7 @@ or a better title GUADEC chromium-ungoogled browser launcher
 git clone https://github.com/Rodartist/basedlgraphgtk in your user home folder (any user).
 
 
-Dependencies: gtkdialog bash
+Dependencies: gtkdialog bash firejail
 
 launch guadecconferencechromiumungoogledlauncher.sh (same as tempt.sh and tempt.shblanktabs)
 ./guadecconferencechromiumungoogledlauncher.sh
