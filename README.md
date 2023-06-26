@@ -10,7 +10,11 @@ launch guadecconferencechromiumungoogledlauncher.sh (same as tempt.sh and tempt.
 ./guadecconferencechromiumungoogledlauncher.sh
 
 
-TODO: change the button labels corresponding scripts to better reflect the contents of. but not likely.
+TODO: 
+
+move all number bash scripts to a folder with base directory and edit the launcher so it still works.
+
+change the button labels corresponding scripts to better reflect the contents of.
 
 there is a history file for every button press in the direcotry. cat historyfiletotal
 could possibly put this in a tcl button script to pop up a terminal and display it for easier accessing.
