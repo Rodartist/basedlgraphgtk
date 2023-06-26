@@ -1,0 +1,1097 @@
+#!/bin/bash
+
+GTKDIALOG=gtkdialog
+export MAIN_DIALOG='
+
+<window title="My Second Program" icon-name="gtk-about" resizable="true" width-request="550" height-request="824">
+<notebook tab-label="First | Second| Third| Fourth|">
+<vbox>
+       <hbox space-fill="true">
+               <combobox>
+                        <variable>myitem</variable>
+                        <item>nFirst Onen</item>
+                        <item>nSecond Onen</item>
+                        <item>nThird Onen</item>
+               </combobox>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>0.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/0.sh.sh &</action>
+               </button>
+               <button>
+                       <label>1.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/1.sh.sh &</action>
+               </button>
+               <button>
+                       <label>2.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/2.sh.sh &</action>
+               </button>
+               <button>
+                       <label>3.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/3.sh.sh &</action>
+               </button>
+               <button>
+                       <label>4.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/4.sh.sh &</action>
+               </button>
+               <button>
+                       <label>5.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/5.sh.sh &</action>
+               </button>
+               <button>
+                       <label>6.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/6.sh.sh &</action>
+               </button>
+               <button>
+                       <label>7.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/7.sh.sh &</action>
+               </button>
+               <button>
+                       <label>8.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/8.sh.sh &</action>
+               </button>
+               <button>
+                       <label>9.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/9.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>10.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/10.sh.sh &</action>
+               </button>
+               <button>
+                       <label>11.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/11.sh.sh &</action>
+               </button>
+               <button>
+                       <label>12.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/12.sh.sh &</action>
+               </button>
+               <button>
+                       <label>13.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/13.sh.sh &</action>
+               </button>
+               <button>
+                       <label>14.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/14.sh.sh &</action>
+               </button>
+               <button>
+                       <label>15.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/15.sh.sh &</action>
+               </button>
+               <button>
+                       <label>16.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/16.sh.sh &</action>
+               </button>
+               <button>
+                       <label>17.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/17.sh.sh &</action>
+               </button>
+               <button>
+                       <label>18.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/18.sh.sh &</action>
+               </button>
+               <button>
+                       <label>19.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/19.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>20.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/20.sh.sh &</action>
+               </button>
+               <button>
+                       <label>21.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/21.sh.sh &</action>
+               </button>
+               <button>
+                       <label>22.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/22.sh.sh &</action>
+               </button>
+               <button>
+                       <label>23.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/23.sh.sh &</action>
+               </button>
+               <button>
+                       <label>24.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/24.sh.sh &</action>
+               </button>
+               <button>
+                       <label>25.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/25.sh.sh &</action>
+               </button>
+               <button>
+                       <label>26.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/26.sh.sh &</action>
+               </button>
+               <button>
+                       <label>27.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/27.sh.sh &</action>
+               </button>
+               <button>
+                       <label>28.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/28.sh.sh &</action>
+               </button>
+               <button>
+                       <label>29.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/29.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>30.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/30.sh.sh &</action>
+               </button>
+               <button>
+                       <label>31.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/31.sh.sh &</action>
+               </button>
+               <button>
+                       <label>32.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/32.sh.sh &</action>
+               </button>
+               <button>
+                       <label>33.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/33.sh.sh &</action>
+               </button>
+               <button>
+                       <label>34.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/34.sh.sh &</action>
+               </button>
+               <button>
+                       <label>35.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/35.sh.sh &</action>
+               </button>
+               <button>
+                       <label>36.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/36.sh.sh &</action>
+               </button>
+               <button>
+                       <label>37.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/37.sh.sh &</action>
+               </button>
+               <button>
+                       <label>38.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/38.sh.sh &</action>
+               </button>
+               <button>
+                       <label>39.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/39.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>40.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/40.sh.sh &</action>
+               </button>
+               <button>
+                       <label>41.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/41.sh.sh &</action>
+               </button>
+               <button>
+                       <label>42.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/42.sh.sh &</action>
+               </button>
+               <button>
+                       <label>43.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/43.sh.sh &</action>
+               </button>
+               <button>
+                       <label>44.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/44.sh.sh &</action>
+               </button>
+               <button>
+                       <label>45.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/45.sh.sh &</action>
+               </button>
+               <button>
+                       <label>46.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/46.sh.sh &</action>
+               </button>
+               <button>
+                       <label>47.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/47.sh.sh &</action>
+               </button>
+               <button>
+                       <label>48.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/48.sh.sh &</action>
+               </button>
+               <button>
+                       <label>49.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/49.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>50.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/50.sh.sh &</action>
+               </button>
+               <button>
+                       <label>51.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/51.sh.sh &</action>
+               </button>
+               <button>
+                       <label>52.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/52.sh.sh &</action>
+               </button>
+               <button>
+                       <label>53.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/53.sh.sh &</action>
+               </button>
+               <button>
+                       <label>54.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/54.sh.sh &</action>
+               </button>
+               <button>
+                       <label>55.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/55.sh.sh &</action>
+               </button>
+               <button>
+                       <label>56.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/56.sh.sh &</action>
+               </button>
+               <button>
+                       <label>57.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/57.sh.sh &</action>
+               </button>
+               <button>
+                       <label>58.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/58.sh.sh &</action>
+               </button>
+               <button>
+                       <label>59.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/59.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>60.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/60.sh.sh &</action>
+               </button>
+               <button>
+                       <label>61.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/61.sh.sh &</action>
+               </button>
+               <button>
+                       <label>62.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/62.sh.sh &</action>
+               </button>
+               <button>
+                       <label>63.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/63.sh.sh &</action>
+               </button>
+               <button>
+                       <label>64.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/64.sh.sh &</action>
+               </button>
+               <button>
+                       <label>65.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/65.sh.sh &</action>
+               </button>
+               <button>
+                       <label>66.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/66.sh.sh &</action>
+               </button>
+               <button>
+                       <label>67.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/67.sh.sh &</action>
+               </button>
+               <button>
+                       <label>68.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/68.sh.sh &</action>
+               </button>
+               <button>
+                       <label>69.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/69.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>70.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/70.sh.sh &</action>
+               </button>
+               <button>
+                       <label>71.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/71.sh.sh &</action>
+               </button>
+               <button>
+                       <label>72.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/72.sh.sh &</action>
+               </button>
+               <button>
+                       <label>73.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/73.sh.sh &</action>
+               </button>
+               <button>
+                       <label>74.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/74.sh.sh &</action>
+               </button>
+               <button>
+                       <label>75.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/75.sh.sh &</action>
+               </button>
+               <button>
+                       <label>76.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/76.sh.sh &</action>
+               </button>
+               <button>
+                       <label>77.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/77.sh.sh &</action>
+               </button>
+               <button>
+                       <label>78.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/78.sh.sh &</action>
+               </button>
+               <button>
+                       <label>79.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/79.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>80.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/80.sh.sh &</action>
+               </button>
+               <button>
+                       <label>81.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/81.sh.sh &</action>
+               </button>
+               <button>
+                       <label>82.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/82.sh.sh &</action>
+               </button>
+               <button>
+                       <label>83.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/83.sh.sh &</action>
+               </button>
+               <button>
+                       <label>84.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/84.sh.sh &</action>
+               </button>
+               <button>
+                       <label>85.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/85.sh.sh &</action>
+               </button>
+               <button>
+                       <label>86.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/86.sh.sh &</action>
+               </button>
+               <button>
+                       <label>87.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/87.sh.sh &</action>
+               </button>
+               <button>
+                       <label>88.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/88.sh.sh &</action>
+               </button>
+               <button>
+                       <label>89.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/89.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>90.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/90.sh.sh &</action>
+               </button>
+               <button>
+                       <label>91.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/91.sh.sh &</action>
+               </button>
+               <button>
+                       <label>92.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/92.sh.sh &</action>
+               </button>
+               <button>
+                       <label>93.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/93.sh.sh &</action>
+               </button>
+               <button>
+                       <label>94.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/94.sh.sh &</action>
+               </button>
+               <button>
+                       <label>95.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/95.sh.sh &</action>
+               </button>
+               <button>
+                       <label>96.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/96.sh.sh &</action>
+               </button>
+               <button>
+                       <label>97.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/97.sh.sh &</action>
+               </button>
+               <button>
+                       <label>98.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/98.sh.sh &</action>
+               </button>
+               <button>
+                       <label>99.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/99.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>100.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/100.sh.sh &</action>
+               </button>
+               <button>
+                       <label>101.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/101.sh.sh &</action>
+               </button>
+               <button>
+                       <label>102.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/102.sh.sh &</action>
+               </button>
+               <button>
+                       <label>103.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/103.sh.sh &</action>
+               </button>
+               <button>
+                       <label>104.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/104.sh.sh &</action>
+               </button>
+               <button>
+                       <label>105.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/105.sh.sh &</action>
+               </button>
+               <button>
+                       <label>106.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/106.sh.sh &</action>
+               </button>
+               <button>
+                       <label>107.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/107.sh.sh &</action>
+               </button>
+               <button>
+                       <label>108.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/108.sh.sh &</action>
+               </button>
+               <button>
+                       <label>109.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/109.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>110.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/110.sh.sh &</action>
+               </button>
+               <button>
+                       <label>111.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/111.sh.sh &</action>
+               </button>
+               <button>
+                       <label>112.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/112.sh.sh &</action>
+               </button>
+               <button>
+                       <label>113.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/113.sh.sh &</action>
+               </button>
+               <button>
+                       <label>114.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/114.sh.sh &</action>
+               </button>
+               <button>
+                       <label>115.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/115.sh.sh &</action>
+               </button>
+               <button>
+                       <label>116.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/116.sh.sh &</action>
+               </button>
+               <button>
+                       <label>117.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/117.sh.sh &</action>
+               </button>
+               <button>
+                       <label>118.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/118.sh.sh &</action>
+               </button>
+               <button>
+                       <label>119.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/119.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>120.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/120.sh.sh &</action>
+               </button>
+               <button>
+                       <label>121.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/121.sh.sh &</action>
+               </button>
+               <button>
+                       <label>122.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/122.sh.sh &</action>
+               </button>
+               <button>
+                       <label>123.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/123.sh.sh &</action>
+               </button>
+               <button>
+                       <label>124.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/124.sh.sh &</action>
+               </button>
+       </hbox>
+<hseparator width-request="240"></hseparator>
+<hseparator width-request="240"></hseparator>
+       <hbox>
+                <button ok></button>
+       </hbox>
+</vbox>
+<vbox>
+       <hbox space-fill="true">
+               <combobox>
+                        <variable>myitem</variable>
+                        <item>nFirst Onen</item>
+                        <item>nSecond Onen</item>
+                        <item>nThird Onen</item>
+               </combobox>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>125.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/125.sh.sh &</action>
+               </button>
+               <button>
+                       <label>126.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/126.sh.sh &</action>
+               </button>
+               <button>
+                       <label>127.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/127.sh.sh &</action>
+               </button>
+               <button>
+                       <label>128.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/128.sh.sh &</action>
+               </button>
+               <button>
+                       <label>129.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/129.sh.sh &</action>
+               </button>
+               <button>
+                       <label>130.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/130.sh.sh &</action>
+               </button>
+               <button>
+                       <label>131.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/131.sh.sh &</action>
+               </button>
+               <button>
+                       <label>132.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/132.sh.sh &</action>
+               </button>
+               <button>
+                       <label>133.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/133.sh.sh &</action>
+               </button>
+               <button>
+                       <label>134.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/134.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>135.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/135.sh.sh &</action>
+               </button>
+               <button>
+                       <label>136.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/136.sh.sh &</action>
+               </button>
+               <button>
+                       <label>137.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/137.sh.sh &</action>
+               </button>
+               <button>
+                       <label>138.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/138.sh.sh &</action>
+               </button>
+               <button>
+                       <label>139.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/139.sh.sh &</action>
+               </button>
+               <button>
+                       <label>140.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/140.sh.sh &</action>
+               </button>
+               <button>
+                       <label>141.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/141.sh.sh &</action>
+               </button>
+               <button>
+                       <label>142.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/142.sh.sh &</action>
+               </button>
+               <button>
+                       <label>143.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/143.sh.sh &</action>
+               </button>
+               <button>
+                       <label>144.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/144.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>145.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/145.sh.sh &</action>
+               </button>
+               <button>
+                       <label>146.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/146.sh.sh &</action>
+               </button>
+               <button>
+                       <label>147.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/147.sh.sh &</action>
+               </button>
+               <button>
+                       <label>148.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/148.sh.sh &</action>
+               </button>
+               <button>
+                       <label>149.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/149.sh.sh &</action>
+               </button>
+               <button>
+                       <label>150.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/150.sh.sh &</action>
+               </button>
+               <button>
+                       <label>151.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/151.sh.sh &</action>
+               </button>
+               <button>
+                       <label>152.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/152.sh.sh &</action>
+               </button>
+               <button>
+                       <label>153.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/153.sh.sh &</action>
+               </button>
+               <button>
+                       <label>154.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/154.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>155.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/155.sh.sh &</action>
+               </button>
+               <button>
+                       <label>156.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/156.sh.sh &</action>
+               </button>
+               <button>
+                       <label>157.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/157.sh.sh &</action>
+               </button>
+               <button>
+                       <label>158.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/158.sh.sh &</action>
+               </button>
+               <button>
+                       <label>159.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/159.sh.sh &</action>
+               </button>
+               <button>
+                       <label>160.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/160.sh.sh &</action>
+               </button>
+               <button>
+                       <label>161.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/161.sh.sh &</action>
+               </button>
+               <button>
+                       <label>162.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/162.sh.sh &</action>
+               </button>
+               <button>
+                       <label>163.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/163.sh.sh &</action>
+               </button>
+               <button>
+                       <label>164.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/164.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>165.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/165.sh.sh &</action>
+               </button>
+               <button>
+                       <label>166.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/166.sh.sh &</action>
+               </button>
+               <button>
+                       <label>167.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/167.sh.sh &</action>
+               </button>
+               <button>
+                       <label>168.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/168.sh.sh &</action>
+               </button>
+               <button>
+                       <label>169.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/169.sh.sh &</action>
+               </button>
+               <button>
+                       <label>170.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/170.sh.sh &</action>
+               </button>
+               <button>
+                       <label>171.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/171.sh.sh &</action>
+               </button>
+               <button>
+                       <label>172.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/172.sh.sh &</action>
+               </button>
+               <button>
+                       <label>173.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/173.sh.sh &</action>
+               </button>
+               <button>
+                       <label>174.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/174.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>175.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/175.sh.sh &</action>
+               </button>
+               <button>
+                       <label>176.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/176.sh.sh &</action>
+               </button>
+               <button>
+                       <label>177.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/177.sh.sh &</action>
+               </button>
+               <button>
+                       <label>178.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/178.sh.sh &</action>
+               </button>
+               <button>
+                       <label>179.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/179.sh.sh &</action>
+               </button>
+               <button>
+                       <label>180.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/180.sh.sh &</action>
+               </button>
+               <button>
+                       <label>181.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/181.sh.sh &</action>
+               </button>
+               <button>
+                       <label>182.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/182.sh.sh &</action>
+               </button>
+               <button>
+                       <label>183.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/183.sh.sh &</action>
+               </button>
+               <button>
+                       <label>184.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/184.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>185.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/185.sh.sh &</action>
+               </button>
+               <button>
+                       <label>186.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/186.sh.sh &</action>
+               </button>
+               <button>
+                       <label>187.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/187.sh.sh &</action>
+               </button>
+               <button>
+                       <label>188.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/188.sh.sh &</action>
+               </button>
+               <button>
+                       <label>189.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/189.sh.sh &</action>
+               </button>
+               <button>
+                       <label>190.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/190.sh.sh &</action>
+               </button>
+               <button>
+                       <label>191.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/191.sh.sh &</action>
+               </button>
+               <button>
+                       <label>192.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/192.sh.sh &</action>
+               </button>
+               <button>
+                       <label>193.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/193.sh.sh &</action>
+               </button>
+               <button>
+                       <label>194.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/194.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>195.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/195.sh.sh &</action>
+               </button>
+               <button>
+                       <label>196.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/196.sh.sh &</action>
+               </button>
+               <button>
+                       <label>197.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/197.sh.sh &</action>
+               </button>
+               <button>
+                       <label>198.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/198.sh.sh &</action>
+               </button>
+               <button>
+                       <label>199.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/199.sh.sh &</action>
+               </button>
+               <button>
+                       <label>200.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/200.sh.sh &</action>
+               </button>
+               <button>
+                       <label>201.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/201.sh.sh &</action>
+               </button>
+               <button>
+                       <label>202.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/202.sh.sh &</action>
+               </button>
+               <button>
+                       <label>203.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/203.sh.sh &</action>
+               </button>
+               <button>
+                       <label>204.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/204.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>205.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/205.sh.sh &</action>
+               </button>
+               <button>
+                       <label>206.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/206.sh.sh &</action>
+               </button>
+               <button>
+                       <label>207.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/207.sh.sh &</action>
+               </button>
+               <button>
+                       <label>208.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/208.sh.sh &</action>
+               </button>
+               <button>
+                       <label>209.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/209.sh.sh &</action>
+               </button>
+               <button>
+                       <label>210.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/210.sh.sh &</action>
+               </button>
+               <button>
+                       <label>211.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/211.sh.sh &</action>
+               </button>
+               <button>
+                       <label>212.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/212.sh.sh &</action>
+               </button>
+               <button>
+                       <label>213.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/213.sh.sh &</action>
+               </button>
+               <button>
+                       <label>214.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/214.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>215.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/215.sh.sh &</action>
+               </button>
+               <button>
+                       <label>216.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/216.sh.sh &</action>
+               </button>
+               <button>
+                       <label>217.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/217.sh.sh &</action>
+               </button>
+               <button>
+                       <label>218.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/218.sh.sh &</action>
+               </button>
+               <button>
+                       <label>219.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/219.sh.sh &</action>
+               </button>
+               <button>
+                       <label>220.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/220.sh.sh &</action>
+               </button>
+               <button>
+                       <label>221.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/221.sh.sh &</action>
+               </button>
+               <button>
+                       <label>222.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/222.sh.sh &</action>
+               </button>
+               <button>
+                       <label>223.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/223.sh.sh &</action>
+               </button>
+               <button>
+                       <label>224.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/224.sh.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>225.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/225.sh.sh &</action>
+               </button>
+               <button>
+                       <label>226.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/226.sh.sh &</action>
+               </button>
+               <button>
+                       <label>227.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/227.sh.sh &</action>
+               </button>
+               <button>
+                       <label>228.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/228.sh.sh &</action>
+               </button>
+               <button>
+                       <label>229.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/229.sh.sh &</action>
+               </button>
+               <button>
+                       <label>230.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/230.sh.sh &</action>
+               </button>
+               <button>
+                       <label>231.sh</label>
+                       <action>sh $HOME/basedlgraphgtk/231.sh.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/basedlgraphgtk/blank.sh &</action>
+               </button>
+       </hbox>
+<hseparator width-request="240"></hseparator>
+<hseparator width-request="240"></hseparator>
+       <hbox>
+                <button ok></button>
+       </hbox>
+</vbox>
+</notebook>
+</window>
+'
+
+case $1 in
+        -d | --dump) echo "$MAIN_DIALOG" ;;
+        *) $GTKDIALOG --program=MAIN_DIALOG --center ;;
+esac

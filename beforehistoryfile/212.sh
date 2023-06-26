@@ -1,0 +1,1 @@
+firejail --noprofile chromium-ungoogled --incognito youtu.be/ZM7Fg8TjZW4

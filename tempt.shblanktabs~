@@ -1,0 +1,2275 @@
+#!/bin/bash
+
+GTKDIALOG=gtkdialog
+export MAIN_DIALOG='
+
+<window title="My Second Program" icon-name="gtk-about" resizable="true" width-request="550" height-request="824">
+<notebook tab-label="First | Second| Third| Fourth|">
+<vbox>
+       <hbox space-fill="true">
+               <combobox>
+                        <variable>myitem</variable>
+                        <item>nFirst Onen</item>
+                        <item>nSecond Onen</item>
+                        <item>nThird Onen</item>
+               </combobox>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+<hseparator width-request="240"></hseparator>
+<hseparator width-request="240"></hseparator>
+       <hbox>
+                <button ok></button>
+       </hbox>
+</vbox>
+<vbox>
+       <hbox space-fill="true">
+               <combobox>
+                        <variable>myitem</variable>
+                        <item>nFirst Onen</item>
+                        <item>nSecond Onen</item>
+                        <item>nThird Onen</item>
+               </combobox>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+<hseparator width-request="240"></hseparator>
+<hseparator width-request="240"></hseparator>
+       <hbox>
+                <button ok></button>
+       </hbox>
+</vbox>
+<vbox>
+       <hbox space-fill="true">
+               <combobox>
+                        <variable>myitem</variable>
+                        <item>nFirst Onen</item>
+                        <item>nSecond Onen</item>
+                        <item>nThird Onen</item>
+               </combobox>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+<hseparator width-request="240"></hseparator>
+<hseparator width-request="240"></hseparator>
+       <hbox>
+                <button ok></button>
+       </hbox>
+</vbox>
+<vbox>
+       <hbox space-fill="true">
+               <combobox>
+                        <variable>myitem</variable>
+                        <item>nFirst Onen</item>
+                        <item>nSecond Onen</item>
+                        <item>nThird Onen</item>
+               </combobox>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+       </hbox>
+<hseparator width-request="240"></hseparator>
+<hseparator width-request="240"></hseparator>
+       <hbox>
+                <button ok></button>
+       </hbox>
+</vbox>
+</notebook>
+</window>
+'
+
+case $1 in
+        -d | --dump) echo "$MAIN_DIALOG" ;;
+        *) $GTKDIALOG --program=MAIN_DIALOG --center ;;
+esac

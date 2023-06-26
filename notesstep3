@@ -1,0 +1,1 @@
+sed "{ N;s/.*/let\ i++ &/; }" listof2.txtnumdouble > listof2.txtnumdo2

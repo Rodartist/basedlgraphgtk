@@ -1,0 +1,2 @@
+firejail --noprofile chromium-ungoogled --incognito youtu.be/UACf-7tcoGc
+echo $(date) $0 firejail --noprofile chromium-ungoogled --incognito youtu.be/UACf-7tcoGc >> historyfiletotal

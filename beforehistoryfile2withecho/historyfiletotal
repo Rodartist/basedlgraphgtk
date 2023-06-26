@@ -1,0 +1,6 @@
+firejail --noprofile chromium-ungoogled --incognito https://www.youtube.com/watch?v=bWUmptI6O2w
+firejail --noprofile chromium-ungoogled --incognito https://www.youtube.com/watch?v=bWUmptI6O2w
+0.sh
+firejail --noprofile chromium-ungoogled --incognito https://www.youtube.com/watch?v=bWUmptI6O2w
+184.sh firejail --noprofile chromium-ungoogled --incognito youtu.be/MxoW54xpvBw
+Sun Jun 25 18:28:56 CDT 2023 0.sh firejail --noprofile chromium-ungoogled --incognito https://www.youtube.com/watch?v=bWUmptI6O2w
